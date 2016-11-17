@@ -1,0 +1,488 @@
+body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Styles for Parameters Index
+-----------------------------------------------------------*/
+
+body
+{
+    background-color: #FFFFE0;
+}
+
+.BackGround
+{
+    background-color: #FFFFE0;
+}
+
+.Title
+{
+    font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+    font-size: 8pt;
+    font-weight:bold;    
+}
+
+.TableHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border-top-style: none;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: #6699cc;
+	text-align: left;
+	border-bottom-style: none;
+}
+
+.TableHeaderLeft
+{
+    width: 65px;
+}
+
+.TableHeaderMiddle
+{
+    height: 20px;
+    text-align: center;
+    /*width: 100%;*/
+}
+
+.TableHeaderRight
+{
+    width: 65px;
+    text-align: right;
+}
+
+.InfoRow
+{
+    text-align: center;
+} 
+
+.Label
+{
+    font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+    color: Black;
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+.TextBox
+{
+    background-color: #ffffff;
+    font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+    font-size: 8pt;
+}
+
+.InfoTextboxlabelblue
+{
+	border-right: black 1px inset;
+	border-top: black 1px inset;
+	font-size: 8pt;
+	border-left: black 1px inset;
+	color: navy;
+	border-bottom: black 1px inset;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+}
+
+.InfoTextboxlabel
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+}
+
+.ErrorLabel
+{
+    font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+    font-size: 8pt;
+    font-weight:bold;
+    color: Red;
+}
+
+.PrimeButton
+{
+    cursor: default;
+	border: 1px solid black;
+    font-size: 8pt;
+	    width: 120px;
+	    color: black;
+	    font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	    height: 25px;
+	    background-color: #eaeaea;
+	    text-align: center;
+    margin-bottom: 0px;
+}
+
+.FormHeaderBG
+{
+    background-color: #564b99;
+}
+
+.FormHeaderLbl
+{
+	font-weight: normal;
+	font-size: 12px;
+	color: silver;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #564b99;
+	text-align: left;
+}	
+
+.FormHeaderText
+{
+	font-weight: normal;
+	font-size: 12px;
+	color: white;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #564b99;
+	text-align: left;
+}	
+
+.FormHeaderTitle
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: silver;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #564b99;
+	text-align: left;
+}	
+
+.TableHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #6699cc;
+	text-align: left;
+}
+
+.GridNormalItem
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #d3d3d3;
+	text-align: left;
+	font-weight: normal;
+}
+
+.TdBlack
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	font-weight: normal;
+}
+
+.GridAlternateItem
+{
+	font-size: 8pt;
+	color: navy;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: white;
+	text-align: left;
+	font-weight: normal;
+	
+}
+
+.datefield
+{
+	font-size: 8pt;
+	color: navy;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: white;
+	text-align: left;
+    border: 1px;
+}
+
+
+.actionbutton
+{
+    border-right: black 1px solid;
+	padding-right: 5px;
+	border-top: black 1px solid;
+	padding-left: 5px;
+	font-weight: normal;
+	font-size: 12px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	border-left: black 1px solid;
+	/*cursor: hand;*/
+	color: black;
+	margin-right: 3px;
+	padding-top: 3px;
+	border-bottom: black 1px solid;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #dedbd6;
+	text-align: center;
+	text-decoration: none;
+	width:130px;
+}
+
+.actionbutton2
+{
+    border-right: black 1px solid;
+	padding-right: 5px;
+	border-top: black 1px solid;
+	padding-left: 5px;
+	font-weight: normal;
+	font-size: 12px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	border-left: black 1px solid;
+	/*cursor: hand;*/
+	color: black;
+	margin-right: 3px;
+	padding-top: 3px;
+	border-bottom: black 1px solid;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #dedbd6;
+	text-align: center;
+	text-decoration: none;
+	width:240px;
+}
+
+.actionbutton3
+{
+    border-right: black 1px solid;
+	padding-right: 5px;
+	border-top: black 1px solid;
+	padding-left: 5px;
+	font-weight: normal;
+	font-size: 9px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	border-left: black 1px solid;
+	/*cursor: hand;*/
+	color: black;
+	margin-right: 3px;
+	padding-top: 3px;
+	border-bottom: black 1px solid;
+	font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+	background-color: #dedbd6;
+	text-align: center;
+	text-decoration: none;
+	width:70px;
+}
+
+
+
+.up,
+.down {
+  font-size: 6px;
+  display: block;
+  height: 10px;
+}
+  .rotator  span {
+  display: inline-block;
+}
+
+.PrimeTable
+{
+                border-right: 0;
+                table-layout: auto;
+                padding-right: 5px;
+                border-top: 0;
+                padding-left: 5px;
+                padding-bottom: 5px;
+                border-left: 0;
+                padding-top: 5px;
+                border-bottom: 0;
+                background-color: lightyellow;
+                width: 100%;
+}
+.CTL_HEADER
+{
+                font-weight      : bold;
+                font-size        : 12px;
+                color            : white;
+                background-color : #6699cc;
+                text-align       : left;
+                height           : 17px;
+                font-family                        : Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+}
+.CTL_TBLCONTROL 
+{ 
+                border-top     : solid 2px #000000; 
+                border-bottom  : solid 2px #000000;
+                border-left    : solid 2px #000000; 
+                border-right   : solid 2px #000000; 
+                border-color   : #6699cc;
+}
+.CTL_LABEL
+{
+                font-family: Verdana,Tahoma;
+                font-size: 8pt;
+                overflow: hidden;
+    text-decoration: none;            
+}
+.CTL_LISTBOX
+{
+    font-family : Verdana, Tahoma, Arial;
+                font-size   : 11px;
+}
+
+.CTLMSK_TEXTDISABLEDSTYLE
+{
+                background-color:Control; 
+                
+}
+.CTL_LABELBOLD
+{
+                font-family     : Verdana,Tahoma;
+                font-size       : 11px;
+                overflow        : hidden;
+                font-weight     : bold;
+    text-decoration : none;           
+}
+.CTL_BUTTONFACE
+{
+                border-right: black 1px solid;
+                padding-right: 5px;
+                border-top: black 1px solid;
+                padding-left: 5px;
+                font-weight: normal;
+                font-size: 11px;
+                padding-bottom: 3px;
+                margin-left: 3px;
+                border-left: black 1px solid;
+                cursor: hand;
+                color: black;
+                margin-right: 3px;
+                padding-top: 3px;
+                border-bottom: black 1px solid;
+                font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+                background-color: #dedbd6;
+                text-align: center;
+                text-decoration: none;
+}
+.InfoTextboxlabel
+{
+                font-size: 8pt;
+                color: black;
+                font-family: Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+                width: 100%;
+}
+
+.CTL_GRIDCTRL
+{
+                color            : #000000;
+                background-color : #ffffff;
+                border           : solid 2px #6699CC;
+                font-weight      : normal ;
+                font-size        : 11px ;
+                font-family      : Verdana;
+                text-align       : left ;
+                padding          : 3px 3px 3px 3px;
+}
+.CTL_GRIDHEADER
+{
+                font-size                             : 12px;
+                font-weight      : bold;
+                color                                     : white;
+                background-color : #6699cc;
+                text-decoration  : none;
+                font-family                        : Verdana, 'Microsoft Sans Serif' , Arial, Sans-Serif;
+}
+.CTL_GRIDITEM
+{
+                background-color : #ffffff;
+                font-weight      : normal ;
+                font-size        : 11px ;
+                font-family      : Verdana;
+                text-decoration  : none;
+}
+.CTL_GRIDALTERNATEITEM
+{
+                background-color : #eeeeee;
+                font-weight      : normal ;
+                font-size        : 11px ;
+                font-family      : Verdana;
+                text-decoration  : none
+}
+
+.ajax-loader 
+{
+    height: 16px;
+    width: 16px;
+    background-image: url(WebImage/ajax-loader.gif)
+}
+
+.inputNumber {
+      text-align: right; 
+
+}
+
+.input-disable {
+       background-color : #eeeeee;
+
+}
+
+
